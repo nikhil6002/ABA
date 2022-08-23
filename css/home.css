@@ -230,6 +230,9 @@
   display: inline-block;
   margin-bottom: 12px;
 }
+.foot-sec .foot-sec-8 .foot-sec-9 .foot-sec-10 img{
+  max-width: 170px;
+}
 .foot-sec .foot-sec-12{
   color:#B4A38D;
   margin: 100px 0 0 0;
@@ -431,7 +434,7 @@ body {
     width: 100%;
   }
   .hoding-sec .hoding-sec-1 .hoding-sec-2 {
-    font-size: 28px;
+    font-size: 34px;
   }
   .hd-head .hmhd12-15 .hd-head-1 .hd-head-3 img {
     max-width: 125px;
@@ -450,6 +453,17 @@ body {
   }
   .sevbt-sec {
     grid-template-columns: repeat(1,1fr);
+  }
+  .sevbt-sec .sevbt-sec-1 img {
+    position: absolute;
+    top: 0;
+  }
+  .sevbt-sec .sevbt-sec-1 {
+    overflow: hidden;
+  }
+  .sevbt-sec .sevbt-sec-1 .sevbt-sec-2 {
+    position: relative;
+    padding: 100px 25px 30px 25px;
   }
 
 }
